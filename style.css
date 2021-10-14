@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Scheherazade New', serif;
+}
+
+svg {
+    background-color:#fff1e6;
+}
+
+#canvas {
+    min-width:1000px;
+    min-height: 600px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+#legend{
+    min-height:300px
+}
